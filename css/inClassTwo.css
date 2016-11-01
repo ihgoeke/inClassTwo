@@ -1,1 +1,34 @@
 /*All css for this project should be in this file only, not in the html file*/
+
+#ball{
+  width: 100px;
+  height: 100px;
+  background-color: saddlebrown;
+  animation-name: slide;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+
+}
+
+@keyframes slide {
+  from{ background-color: saddlebrown;
+        height: 100px;}
+  to {background-color: red;
+      height: 118px; }
+}
+
+#hover1:hover{
+  background-color: aquamarine;
+}
+
+#click1:active{
+  height: 300px;
+  width: 300px;
+}
+#hover2:hover{
+  opacity: 0;
+}
+
+#click2:active{
+  font-size: 10em;
+}
